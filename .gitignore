@@ -1,0 +1,7 @@
+# Virtual environment and Python cache files
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Trained model is recreated by running src/train.py
+models/

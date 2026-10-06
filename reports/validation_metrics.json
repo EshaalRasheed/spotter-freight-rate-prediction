@@ -1,0 +1,77 @@
+[
+  {
+    "test_window": "2025-05-01 to 2025-06-30",
+    "train_rows": 15343,
+    "test_rows": 9696,
+    "lightgbm_all": {
+      "mae": 100.6,
+      "mape_pct": 4.01
+    },
+    "lightgbm_clean": {
+      "mae": 47.73,
+      "mape_pct": 1.84
+    },
+    "lightgbm_clean_known_cities": {
+      "mae": 46.71,
+      "mape_pct": 1.8
+    },
+    "lightgbm_clean_new_cities": {
+      "mae": 52.06,
+      "mape_pct": 2.04
+    },
+    "baseline_clean": {
+      "mae": 151.26,
+      "mape_pct": 6.93
+    }
+  },
+  {
+    "test_window": "2025-07-01 to 2025-08-31",
+    "train_rows": 21667,
+    "test_rows": 9671,
+    "lightgbm_all": {
+      "mae": 119.63,
+      "mape_pct": 5.68
+    },
+    "lightgbm_clean": {
+      "mae": 68.37,
+      "mape_pct": 3.6
+    },
+    "lightgbm_clean_known_cities": {
+      "mae": 68.45,
+      "mape_pct": 3.63
+    },
+    "lightgbm_clean_new_cities": {
+      "mae": 68.11,
+      "mape_pct": 3.49
+    },
+    "baseline_clean": {
+      "mae": 116.59,
+      "mape_pct": 5.05
+    }
+  },
+  {
+    "test_window": "2025-09-01 to 2025-10-31",
+    "train_rows": 29371,
+    "test_rows": 9523,
+    "lightgbm_all": {
+      "mae": 117.89,
+      "mape_pct": 5.04
+    },
+    "lightgbm_clean": {
+      "mae": 62.58,
+      "mape_pct": 2.68
+    },
+    "lightgbm_clean_known_cities": {
+      "mae": 58.93,
+      "mape_pct": 2.73
+    },
+    "lightgbm_clean_new_cities": {
+      "mae": 75.04,
+      "mape_pct": 2.53
+    },
+    "baseline_clean": {
+      "mae": 126.13,
+      "mape_pct": 5.01
+    }
+  }
+]
